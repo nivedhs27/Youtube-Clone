@@ -1,0 +1,32 @@
+.Video-grid {display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+column-gap: 16px;
+padding: 24px;}
+
+.Vdo1 {cursor: pointer;}
+
+.Img1 {width: 100%;border-radius: 10px;transition: transform 0.2s ease;}
+
+.Img1:hover {transform: scale(1.01);border-radius: 0;}
+
+.video-info-grid {display: grid;grid-template-columns: 50px 1fr;margin-top: 10px;}
+
+.pfp1 {width: 38px;height: 40px;border-radius: 50%;}
+
+.desc1 {font-weight: 500;font-size: 16px;line-height: 20px;color: #000;margin-bottom: 5px;}
+
+.Author1,.Stats1 {font-weight: 400;font-size: 14px;color: #606060;padding-bottom: 5px;}
+
+.Author1:hover {transform: scale(1.008);color: #000;}
+.thumbnail-container {position: relative; display: inline-block;}
+.timestamp {
+position: absolute; 
+bottom: 8px; 
+right: 8px; 
+background-color: rgba(0,0,0,0.8); 
+color: white; 
+font-size: 12px; 
+padding: 2px 4px; 
+border-radius: 2px;
+}
+
